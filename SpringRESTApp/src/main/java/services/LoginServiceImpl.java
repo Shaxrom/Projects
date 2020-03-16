@@ -15,6 +15,7 @@ import java.util.Optional;
 
 import static java.transfer.TokenDto.from;
 
+@Service
 public class LoginServiceImpl implements LoginService {
 
     @Autowired
