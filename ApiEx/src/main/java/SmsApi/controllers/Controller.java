@@ -26,7 +26,7 @@ public class Controller {
         if (!messageSender.saveAndSend(smsForm)) {
             return ResponseEntity.badRequest().build();
         }
-        return ResponseEntity.ok().build();
+        else return ResponseEntity.ok().build();
     }
 
     @GetMapping("/allsms")
