@@ -1,0 +1,4 @@
+rootProject.name = 'withWebFlux'
+include 'Server'
+include 'Client'
+
